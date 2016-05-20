@@ -7,7 +7,7 @@ let stateCheck = setInterval(() => {
 }, 100);
 
 function getData(){
-	
+
 	minAjax({
 		url:"http://localhost:3000/users/nir",
 		type:"POST",

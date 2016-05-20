@@ -112,8 +112,3 @@ function minAjax(config) {
         if (config.debugLog == true)
             console.log("POST fired at:" + config.url + " || Data:" + sendString);
     }
-
-
-
-
-}
