@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
     res.send('respond with a resource');
 });
 
-router.post('/test', function(req, res, next) {
+router.get('/test', function(req, res) {
     res.send("test worked");
 });
 router.post('/nir', function(req, res, next) {
